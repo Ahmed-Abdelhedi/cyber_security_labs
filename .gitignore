@@ -1,0 +1,27 @@
+# Local originals and preparation tools
+.local-backup/
+.preparation/
+
+# Editable source documents: publish the PDF versions
+*.docx
+*.doc
+~$*
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+__pycache__/
+.vscode/
+.idea/
+
+# Local credentials and keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
